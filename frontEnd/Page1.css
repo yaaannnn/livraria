@@ -1,0 +1,60 @@
+body{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ECF2F5;
+}
+
+h2{
+    text-align: center;
+    color: #207FCF;
+}
+
+form{
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    border: solid 1px #207FCF;
+    border-radius: 10px;
+    background-color: #ECF2F5;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #207FCF;
+}
+
+input{
+    width: 100%;
+    padding: 2px;
+    margin-top: 2px;
+    box-sizing: border-box;
+    border: double 1px #207FCF;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+button{
+    width: 50%;
+    margin-left: 75px;
+    padding: 5px;
+    margin-top: 20px;
+    color: #fbfdff;
+    border-radius: 5px;
+    border: solid 1px #207FCF;
+    cursor: pointer;
+}
+
+.btn-cadastrar{
+    background: #207FCF;
+}
+
+.btn-cadastrar:hover{
+    background: #5082ac;
+    border: solid 1px #cecece;
+}
+
+
+.btn-lista{
+    background-color: #7caed8;
+}
