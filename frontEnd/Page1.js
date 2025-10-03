@@ -79,6 +79,7 @@ function enviar() {
         .then(res => res.json())
         .then(data => {
             alert(`Livro cadastrado com ID: ${data.id}`);
+            alert("ass: yan");
             window.location.href = "lista.html";
         })
         .catch(err => alert("Erro ao cadastrar livro."));
