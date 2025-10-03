@@ -89,3 +89,6 @@ function enviar() {
 function irParaLista() {
     window.location.href = "lista.html";
 }
+//function dev(){
+//  console.log("dev yan");
+//}
